@@ -1,7 +1,7 @@
 # Anastasia Tarasova 
 
 ## Contacts 
-* Location:
+* Location: Mogilev, Belarus
 * Phone: +375 44 703-14-22
 * GitHub: taranastasiia
 * [Instagram](https://www.instagram.com/an.hearteater/)
