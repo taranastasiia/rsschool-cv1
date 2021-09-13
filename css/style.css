@@ -57,7 +57,7 @@ main  {
 
 main h2 {
     width: 160px;
-    margin: 20px auto 20px; 
+    margin: 60px auto 20px; 
     padding: 5px 20px;
     text-align: center;
     text-transform: uppercase;
@@ -91,30 +91,69 @@ main li {
     display: inline;
 }
 
-.right-column .aboutme, .education{
+.right-column .aboutme, .education, .course, .language{
     margin-top: 10px;
     margin-bottom: 15px;
     margin-left: 20px;
 }
 
-.aboutme h2 {
+.right-column h2 {
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     border-bottom: 3.5px solid #f7f4d0;
 }
 
-.aboutme p {
+.right-column .aboutme p{
     margin-bottom: 10px;
 } 
-.education {
+
+.education, .course, .language {
     margin-top: 50px;
 }
 
-.education h2{
+.education p strong {
     font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    border-bottom: 3.5px solid #f7f4d0;
 }
 
+.course a {
+    text-decoration: none;
+    color: #685e5e;
+}
+
+.course a :hover {
+    font-weight: 700;
+    color: black;
+}
+
+.course p {
+    margin-bottom: 10px;
+}
+
+.language li {
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #685e5e;
+    color: #ffffff;
+}
+.my-github {
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .github-icon {
+    margin-right: 10px;
+  }
+  
