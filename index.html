@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>My CV</title>
 </head>
 <body>
-    <div class="continer">
+    <div class="container">
+         <header>
+            <img src="./image/myphoto.jpg" alt="Photo" width="204" height="204">
+            <h1>Anastasia Tarasova</h1>
+            <h2>Future Frontend Developer</h2>
+        </header>
         <div class="columns">
-            <div class="lefr-column">
-                <header>
-                    <img src="./image/myphoto.jpg" alt="Photo" width="204" height="204">
-                    <h1>Anastasia Tarasova</h1>
-                    <h2>Future Frontend Developer</h2>
-                </header>
+            <div class="left-column">
                 <main>
                     <section class="contacts">
                         <h2>Contacts</h2>
@@ -45,15 +49,41 @@
                     <section class='skills'>
                         <h2>Skills</h2> 
                         <ul>
-                            <li class='skills__html'>HTML</li>
-                            <li class='skills__css'>CSS</li>
-                            <li class='skills__js'>JavaScript (in process) </li>
-                            <li class='skills__github'>GitHub</li>
-                            <li class='skills__figma'>Figma</li>
-
+                            <li class='html'>
+                                <img src='./image/html.svg' alt="html" width="30" height="30">
+                                <p>HTML</p>
+                            </li>
+                            <li class='css'>
+                                <img src="./image/css-3.svg" alt="css" width="30" height="30">
+                                <p>CSS</p>
+                            </li>
+                            <li class='js'>
+                                <img src="./image/javascript.svg" alt="css" width="30" height="30">
+                                <p>JavaScript (in process) </p>
+                            </li>
+                            <li class='github'>
+                                <img src="./image/gh.svg" alt="css" width="30" height="30">
+                                <p>GitHub</p>
+                            </li>
+                            <li class='figma'>
+                                <img src="./image/figma.svg" alt="css" width="30" height="30">
+                                <p>Figma</p>
+                            </li>
                         </ul>
                     </section>
                 </main>
+            </div>
+            <div class="right-column">
+                <div class="aboutme">
+                    <h2>About Myself</h2>
+                    <p>I'm Anastasia and I'm 20 years old. At this point in time I stydy at the university at the faculty of economics. </p>
+                    <p>In my free time, I study programming languages, because my goal is to learn something new, to discover the profession of a Front-End developer.</p>
+                </div>
+                <div class="education">
+                    <h2>Education</h2>
+                    <p>Belarusian-Russian University</p>
+                    <p>Years: 2018 - 2022</p>
+                    <p>Specialization: Transport logistics</p>
             </div>
         </div>
     </div>
